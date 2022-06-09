@@ -7,7 +7,7 @@
 diploma_codes()
 }
 \value{
-list of charactoer containg diploma codes
+list of diploma codes
 }
 \description{
 This function returns a list of current FLDOE diploma codes with character strings. Contains all diplomas.

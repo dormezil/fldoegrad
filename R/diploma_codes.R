@@ -3,7 +3,7 @@
 #' @description  This function returns a list of current FLDOE diploma codes with character strings. Contains all diplomas.
 #'
 #' @keywords diploma, graduation
-#' @return list of charactoer containg diploma codes
+#' @return list of diploma codes
 #' @export
 #'
 #' @examples

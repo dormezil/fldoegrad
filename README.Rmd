@@ -1,0 +1,59 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# fldoegrad
+
+<!-- badges: start -->
+ <img src="man/figures/logo.png" align="right" height="139" />
+<!-- badges: end -->
+
+The goal of fldoegrad is to ...
+
+## Installation
+
+You can install the development version of fldoegrad from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("dormezil/fldoegrad")
+```
+
+## Examples
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r, include=FALSE}
+library(fldoegrad)
+library(magrittr)
+```
+
+### Diploma Codes
+```{r example}
+# Print list of diploma codes
+diploma_codes() %>% unlist()
+```
+### Federal Graduation Codes
+```{r}
+# Print a list of federal graduation codes
+grad_codes() %>% unlist()
+```
+
+### Adult Graduation Codes
+```{r}
+# Print a list of adult grad codes
+adult_grad_codes() %>% unlist()
+```
+
+

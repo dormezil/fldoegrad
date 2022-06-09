@@ -6,7 +6,17 @@
 \alias{fldoegrad-package}
 \title{fldoegrad: FLDOE graduation/diploma helper functions.}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 This package provides a set of functions to help calculate graduation and diploma status according to FLDOE standards.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/dormezil/fldoegrad}
+  \item Report bugs at \url{https://github.com/dormezil/fldoegrad/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Stevens Dormezil \email{stevens.dormezil@palmbeachschools.org} (\href{https://orcid.org/0000-0003-1886-6964}{ORCID})
