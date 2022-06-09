@@ -56,4 +56,9 @@ grad_codes() %>% unlist()
 adult_grad_codes() %>% unlist()
 ```
 
+### Dropout Codes
+```{r}
+#Print a list of dropout codes
+dropout_codes() %>% unlist()
+```
 
